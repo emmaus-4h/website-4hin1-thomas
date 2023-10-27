@@ -23,8 +23,9 @@
 }
 
 html, body {                      /* geldt voor html en body */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+  background-color: #ffffff;    /* achtergrondkleur lichtgrijs */
+  color: #green;                /* tekstkleur donkergrijs */
+  font-family: Gill-sans, sans-serif ;        /* standaart lettertype*/
 }  
 
 div {                             /* geldt voor div */
@@ -55,7 +56,6 @@ main {
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
-  color: skyblue;
 } 
 
 p {
