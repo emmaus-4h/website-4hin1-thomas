@@ -24,8 +24,6 @@
 
 html, body {                      /* geldt voor html en body */
   background-color: #ffffff;    /* achtergrondkleur lichtgrijs */
-  color: #green;                /* tekstkleur donkergrijs */
-  font-family: Gill-sans, sans-serif ;        /* standaart lettertype*/
 }  
 
 div {                             /* geldt voor div */
@@ -43,6 +41,9 @@ div {                             /* geldt voor div */
   width: 700px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 10 pixels marge,
                                      links en rechts marge gelijk verdeeld (gecentreerd) */
+  background-color: #3da43d;                    /* tekstkleur donkergrijs */
+  opacity: 1;                                     /* transparantie van de pagina */
+  font-family: Gill-sans, sans-serif ;     /* standaart lettertype*/
 }
 
 header, footer {                  /* geldt voor header en footer */
@@ -120,15 +121,25 @@ nav li a.active {
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
-.item-plaatje {
+.betekenis-plaatje {
   float: left;
   width: 250px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 
-.item-tekst {
+.betekenis {
+  color: #dedede;
+  background-color: #892424 ;
+  border-color: #005c00 ;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 30px;
+  margin: 20px, 1px, 20px, 1px;
+}
+
+.betekenis-tekst {
   float: right;
-  width: 450px;
+  width: 63%;
 }
 
 /************************* SUBPAGINA *************************/
