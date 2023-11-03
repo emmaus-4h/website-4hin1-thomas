@@ -69,12 +69,16 @@ img {
 }
 
 a {
-  color: skyblue;
+  color: #5dc5ee;
   text-decoration: none;
 }
 
 a:hover {                         /* <a> als je er met de muis op staat */
   text-decoration: underline;
+}
+
+footer {
+  background-color:
 }
 
 .smalltext {
@@ -111,7 +115,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-  background-color: skyblue;
+  background-color: #4dbeea;
 }
 
 
@@ -121,20 +125,27 @@ nav li a.active {
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
+.inleiding-text {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .betekenis-plaatje {
   float: left;
-  width: 250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  width: 230px;
+  margin-right: 10px; /* zorgt dat plaatje niet tegen tekst komt */
+  margin-left: 5px;
+  border: 2px solid black;
 }
 
 .betekenis {
   color: #dedede;
-  background-color: #892424 ;
+  background-color: #8e2900 ;
   border-color: #005c00 ;
   border-width: 5px;
   border-style: solid;
   border-radius: 30px;
-  margin: 20px, 1px, 20px, 1px;
+  margin-bottom: 20px;
 }
 
 .betekenis-tekst {
@@ -142,8 +153,22 @@ nav li a.active {
   width: 63%;
 }
 
+.lichaam {
+  color: #dedede;
+  background-color: #8e2900 ;
+  border-color: #005c00 ;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
 /************************* SUBPAGINA *************************/
 
 /* Indeling en opmaak voor subpagina */
 
-/* verzin deze zelf... */
+.ponginae {
+  
+}
