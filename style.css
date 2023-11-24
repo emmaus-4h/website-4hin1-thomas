@@ -169,7 +169,7 @@ nav li a.active {
 
 /* Indeling en opmaak voor subpagina */
 
-.ponginae-intro {
+.intro {
   margin-bottom: 20px;
   text-align: center;
 }
@@ -207,4 +207,36 @@ nav li a.active {
   margin-bottom: 20px;
   padding-left: 10px;
   padding-bottom: 5px;
+}
+
+.gorillini-evolutie {
+  color: #dedede;
+  background-color: #8e2900 ;
+  border-color: #005c00 ;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.gorillini-leefgebied {
+  color: #dedede;
+  background-color: #8e2900 ;
+  border-color: #005c00 ;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 30px;
+}
+
+.gorillini-foto {
+  float: left;
+  border: 2px solid black;
+  margin-right: 10px; /* zorgt dat plaatje niet tegen tekst komt */
+  margin-left: 5px;
+  width: 220px;
+}
+
+.gorillini-text {
+  float: ;
+  width: ;
 }
