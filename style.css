@@ -192,11 +192,6 @@ nav li a.active {
   margin-bottom: 20px;
 }
 
-.ponginae-bschrijving {
-  float: right;
-  width: 63%;
-}
-
 .ponginae-leefwijze {
   color: #dedede;
   background-color: #8e2900 ;
@@ -239,4 +234,33 @@ nav li a.active {
 
 .gorillini-text {
   padding-left: 5px;
+}
+
+.hominini-definitie {
+  color: #dedede;
+  background-color: #8e2900 ;
+  border-color: #005c00 ;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 30px;
+  padding-left: 5px;
+}
+
+.hominini-evolutie {
+  color: #dedede;
+  background-color: #8e2900 ;
+  border-color: #005c00 ;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 30px;
+  padding-left: 5px;
+  margin-top: 20px;
+}
+
+.plaatje {
+  float: left;
+  width: 228px;
+  margin-right: 10px; /* zorgt dat plaatje niet tegen tekst komt */
+  margin-left: 5px;
+  border: 2px solid black;
 }
