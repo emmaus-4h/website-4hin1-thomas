@@ -217,6 +217,7 @@ nav li a.active {
   border-style: solid;
   border-radius: 30px;
   margin-bottom: 20px;
+  padding-left: 7px;
 }
 
 .gorillini-leefgebied {
@@ -237,6 +238,5 @@ nav li a.active {
 }
 
 .gorillini-text {
-  float: ;
-  width: ;
+  padding-left: 5px;
 }
