@@ -86,9 +86,9 @@ footer {
   font-size: 0.7em;
 }
 
-.intro {
-  margin-bottom: 20px;
-  text-align: center;
+.intro {                          /* geldt voor elk begin stukje op een pagina*/
+  margin-bottom: 20px;            /* zorgt ervoor dat de text niet met de box eronder botst */
+  text-align: center;             /* tekst centreren */
 }
 
 /************************* NAVIGATIEBALK *************************/
@@ -130,71 +130,71 @@ nav li a.active {
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
-.betekenis-plaatje {
-  float: left;
-  width: 230px;
-  margin-right: 0px; /* zorgt dat plaatje niet tegen tekst komt */
-  margin-left: 10px;
-  border: 2px solid black;
+.hominidae-plaatje {              /* geldt voor het plaatje op de hominidae pagina*/
+  float: left;                    /* zorgt ervoor dat het plaatje links uit gaat */
+  width: 230px;                   /* breedte van het plaatje */
+  margin-right: 10px;             /* zorgt dat plaatje niet tegen tekst komt */
+  margin-left: 10px;              /* zorgt dat plaatje niet tegen border komt */
+  border: 2px solid black;      /* maakt een 2pixel zwarte border om plaatje */
 }
 
-.betekenis {
-  color: #dedede;
-  background-color: #8e2900 ;
-  border-color: #005c00 ;
-  border-width: 5px;
-  border-style: solid;
-  border-radius: 30px;
-  margin-bottom: 20px;
+.hominidae-betekenis {            /* geldt voor de betekenis tekst, plaatje en titel op de hominidae pagina */
+  color: #dedede;                 /* tekstkleur wit */
+  background-color: #8e2900 ;     /* achtergrondkleur bruin */
+  border-color: #005c00 ;         /* borderkleur groen */
+  border-width: 5px;              /* border grootte */
+  border-style: solid;            /* border stijl */
+  border-radius: 30px;            /* hoe rond de border is */
+  margin-bottom: 20px;            /* zorgt dat de box niet de box eronder raakt */
 }
 
-.betekenis-tekst {
-  float: right;
-  margin-left: 2px;
+.hominidae-tekst {                /* geldt voor de bovenste tekst op de hominidae pagina */
+  margin-left: 10px;              /* zorgt dat de tekst niet tegen het plaatje aan komt */
+  margin-top: 20px;               /* zorgt dat de tekst niet tegen de titel aan komt */
 }
 
-.lichaam {
-  color: #dedede;
-  background-color: #8e2900 ;
-  border-color: #005c00 ;
-  border-width: 5px;
-  border-style: solid;
-  border-radius: 30px;
-  margin-bottom: 20px;
-  padding-left: 10px;
-  padding-bottom: 5px;
+.hominidae-lichaam {              /* geldt voor de onderste tekst en titel op de hominidae pagina */
+  color: #dedede;                 /* tekstkleur wit */
+  background-color: #8e2900 ;     /* achtergrondkleur bruin */
+  border-color: #005c00 ;         /* borderkleur groen */
+  border-width: 5px;              /* border grootte */
+  border-style: solid;            /* border stijl */
+  border-radius: 30px;            /* hoe rond de border is */
+  margin-bottom: 20px;            /* zorgt dat de box niet de onderkant van de pagina raakt */
+  padding-left: 10px;             /* zorgt dat de tekst niet tegen de border aan komt */
+  padding-bottom: 5px;            /* zorgt dat de tekst niet tegen de border aan komt */
 }
 
 /************************* SUBPAGINA *************************/
 
 /* Indeling en opmaak voor subpagina */
 
-.beschrijving-plaatje {
-  float: left;
-  width: 235px;
-  margin-right: 10px; /* zorgt dat plaatje niet tegen tekst komt */
-  margin-left: 5px;
-  border: 2px solid black;
+.ponginae-plaatje {               /* geldt voor het plaatje op de ponginae pagina */
+  float: left;                    /* zorgt ervoor dat het plaatje links uit gaat */
+  width: 235px;                   /* breedte van het plaatje */
+  margin-right: 10px;             /* zorgt dat plaatje niet tegen tekst komt */
+  margin-left: 5px;               /* zorgt dat plaatje niet tegen border komt */
+  border: 2px solid black;        /* maakt een 2pixel zwarte border om plaatje */
 }
 
-.beschrijving {
-  color: #dedede;
-  background-color: #8e2900 ;
-  border-color: #005c00 ;
-  border-width: 5px;
-  border-style: solid;
-  border-radius: 30px;
-  margin-bottom: 20px;
+.ponginae-beschrijving {          /* geldt voor de beschrijving tekst, plaatje en titel op de ponginae pagina */
+  color: #dedede;                 /* tekstkleur wit */
+  background-color: #8e2900 ;     /* achtergrondkleur bruin */
+  border-color: #005c00 ;         /* borderkleur groen */
+  border-width: 5px;              /* border grootte */
+  border-style: solid;            /* border stijl */
+  border-radius: 30px;            /* hoe rond de border is */
+  margin-bottom: 20px;            /* zorgt dat de box niet de box eronder raakt */
 }
 
-.ponginae-leefwijze {
-  color: #dedede;
-  background-color: #8e2900 ;
-  border-color: #005c00 ;
-  border-width: 5px;
-  border-style: solid;
-  border-radius: 30px;
-  margin-bottom: 20px;
+.ponginae-leefwijze {             /* geldt voor de onderste tekst en titel op de ponginae pagina */
+  color: #dedede;                 /* tekstkleur wit */
+  background-color: #8e2900 ;     /* achtergrondkleur bruin */
+  border-color: #005c00 ;         /* borderkleur groen */
+  border-width: 5px;              /* border grootte */
+  border-style: solid;            /* border stijl */
+  border-radius: 30px;            /* hoe rond de border is */
+  margin-bottom: 20px;            /* zorgt dat de box niet de onderkant van de pagina raakt */
   padding-left: 10px;
   padding-bottom: 5px;
 }
