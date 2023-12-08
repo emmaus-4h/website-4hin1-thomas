@@ -86,6 +86,11 @@ footer {
   font-size: 0.7em;
 }
 
+.intro {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 /************************* NAVIGATIEBALK *************************/
 
 /* navigatiebalk voor alle pagina's */
@@ -125,16 +130,11 @@ nav li a.active {
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
-.inleiding-text {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
 .betekenis-plaatje {
   float: left;
   width: 230px;
-  margin-right: 10px; /* zorgt dat plaatje niet tegen tekst komt */
-  margin-left: 5px;
+  margin-right: 0px; /* zorgt dat plaatje niet tegen tekst komt */
+  margin-left: 10px;
   border: 2px solid black;
 }
 
@@ -150,7 +150,7 @@ nav li a.active {
 
 .betekenis-tekst {
   float: right;
-  width: 63%;
+  margin-left: 2px;
 }
 
 .lichaam {
@@ -168,11 +168,6 @@ nav li a.active {
 /************************* SUBPAGINA *************************/
 
 /* Indeling en opmaak voor subpagina */
-
-.intro {
-  margin-bottom: 20px;
-  text-align: center;
-}
 
 .beschrijving-plaatje {
   float: left;
@@ -222,6 +217,7 @@ nav li a.active {
   border-width: 5px;
   border-style: solid;
   border-radius: 30px;
+  padding-right: 5px;
 }
 
 .gorillini-foto {
