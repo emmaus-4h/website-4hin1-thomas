@@ -199,29 +199,29 @@ nav li a.active {
   border-style: solid;            /* border stijl */
   border-radius: 30px;            /* hoe rond de border is */
   margin-bottom: 20px;            /* zorgt dat de box niet de onderkant van de pagina raakt */
-  padding-left: 10px;
-  padding-bottom: 5px;
+  padding-left: 10px;             /* zorgt dat de tekst niet tegen de linker border aan komt */
+  padding-bottom: 5px;            /* zorgt dat de tekst niet tegen de onder border aan komt */
+}
+  
+.gorillini-evolutie {             /* geldt voor de bovenste tekst op de gorrilla pagina*/
+  color: #dedede;                 /* tekstkleur wit */
+  background-color: #8e2900 ;     /* achtergrondkleur bruin */
+  border-color: #005c00 ;         /* borderkleur groen */
+  border-width: 5px;              /* border grootte */
+  border-style: solid;            /* border stijl */
+  border-radius: 30px;            /* hoe rond de border is */
+  margin-bottom: 20px;            /* zorgt dat de box niet de box eronder raakt */
+  padding-left: 7px;              /* zorgt dat de tekst niet tegen de linker border aan komt */
 }
 
-.gorillini-evolutie {
-  color: #dedede;
-  background-color: #8e2900 ;
-  border-color: #005c00 ;
-  border-width: 5px;
-  border-style: solid;
-  border-radius: 30px;
-  margin-bottom: 20px;
-  padding-left: 7px;
-}
-
-.gorillini-leefgebied {
-  color: #dedede;
-  background-color: #8e2900 ;
-  border-color: #005c00 ;
-  border-width: 5px;
-  border-style: solid;
-  border-radius: 30px;
-  padding-right: 5px;
+.gorillini-leefgebied {           /* geldt voor de onderste tekst op de gorrilla pagina */
+  color: #dedede;                 /* tekstkleur wit */
+  background-color: #8e2900 ;     /* achtergrondkleur bruin */
+  border-color: #005c00 ;         /* borderkleur groen */
+  border-width: 5px;              /* border grootte */
+  border-style: solid;            /* border stijl */
+  border-radius: 30px;            /* hoe rond de borde is */
+  padding-right: 5px;             /* zorgt dat de tekst niet tegen de rechter border aan komt */
 }
 
 .gorillini-foto {
@@ -265,6 +265,6 @@ nav li a.active {
   border: 2px solid black;
 }
 
-#link {
-  color: #b3d7ff ;
+#link {              /* selecteert de link op de index pagina */
+  color: #b3d7ff ; /* kleur van link */
 }
