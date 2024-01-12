@@ -123,6 +123,10 @@ nav li a.active {
   background-color: #4dbeea;
 }
 
+#option {
+  background-color: #4d82ff;
+}
+
 
 /************************* HOOFDPAGINA *************************/
 
@@ -259,4 +263,8 @@ nav li a.active {
   margin-right: 10px; /* zorgt dat plaatje niet tegen tekst komt */
   margin-left: 5px;
   border: 2px solid black;
+}
+
+#link {
+  color: #b3d7ff ;
 }
